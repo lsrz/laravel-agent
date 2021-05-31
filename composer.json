@@ -5,6 +5,7 @@
     "keywords": ["tools"],
     "license": "MIT",
     "homepage": "https://github.com/lsrz/laravel-agent",
+    "version": "0.1.0",
     "authors": [
         {
             "name": "lisuowang",
@@ -29,5 +30,6 @@
                 "Agent": "Lsrz\\Agent\\Facades\\Agent"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
