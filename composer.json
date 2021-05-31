@@ -1,0 +1,29 @@
+{
+    "name": "lsrz/laravel-agent",
+    "description": "Laravel-admin Agent",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lisuowang",
+            "email": "23164666@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lsrz\\Agent\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lsrz\\Agent\\AgentProvider"
+            ],
+            "aliases": {
+                "Agent": "Lsrz\\Agent\\Facades\\Agent"
+            }
+        }
+    }
+}
