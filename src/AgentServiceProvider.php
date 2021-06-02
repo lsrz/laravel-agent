@@ -16,7 +16,7 @@ class AgentServiceProvider extends ServiceProvider
     {
         // 发布配置文件
         $this->publishes([
-            __DIR__ . '/../resources/views' => base_path('resources/views/vendor/agent'),
+            //__DIR__ . '/../resources/views' => base_path('resources/views/vendor/agent'),
             __DIR__ . '/../config/agent.php' => config_path('agent.php'),
         ]);
     }
